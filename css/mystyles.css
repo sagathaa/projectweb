@@ -1,0 +1,59 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(160, 226, 226);
+    color: rgb(96, 114, 202);
+    background-color: lightblue;
+}
+
+a {
+    color: rgb(240, 156, 225);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    font-size: 300px;
+}
+
+img {
+    display: block;
+    border: solid white 3px;
+    padding: 4px;
+    margin: auto;
+    /*centers image (with block display)*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+.smallimg{
+    width: 25%;
+}
+h6 {
+    border: dashed rgb(240, 156, 225)3px;
+    text-align: center;
+}
+
+.riz {
+    font-family: 'Comic Sans', 'Chiller';
+    color: rgba(9, 9, 9, 0);
+    font-size: xx-large;
+    font-style: italic;
+    border: 3px rgb(4, 255, 0) dotted;
+    background-color: gold;
+}
+
+.riz:hover {
+    text-decoration: line-through;
+    font-size: 300%;
+    background-color: black;
+    border: solid fuchsia 10px;
+}
+.yeet {
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: gray;
+    border: 3px solid rgba(255, 255, 255, 0);
+    text-align: center;
+    font-family: Georgia;
+  }
